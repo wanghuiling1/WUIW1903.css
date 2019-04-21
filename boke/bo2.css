@@ -1,0 +1,598 @@
+body,h1,h2,h3,h4,h5,h6,ol,ul,li,dl,dt,dd,p,pre,from,table{
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+}
+.all{
+    width: 100%;
+    height: 5000px;
+    background: #f6f6f6;
+}
+.top{
+    width: 100%;
+    height: 50px;
+    background: darkslategray;
+
+
+    color: white;
+    line-height: 50px;
+}
+.topcontent{
+    width: 1100px;
+    height: 50px;
+    margin: 0px auto;
+    background:darkslategray;
+}
+.top1{
+    width: auto;
+    height: 50px;
+    background: darkslategray;
+    font-size: 25px;
+    float:left
+}
+.top2{
+    width: auto;
+    height: 50px;
+    background: darkslategray;
+    float:right;
+    margin: 0px;
+}
+.top2 li{
+    float:left;
+    margin-left:40px ;
+    list-style: none;
+
+}
+/*.first{
+    color: red;
+}*/
+.mid{
+    width: 1100px;
+    height: 150px;
+    background: #f6f6f6;
+    margin: 40px auto;
+}
+
+.three{
+    width: 350px;
+    height: 150px;
+    background: white;
+    float:left;
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.three img{
+    width: 100%;
+    height: 140%;
+    display: block;
+    transition: all .5s ease-out .1s;
+    border-radius: 8px;
+}
+.three:hover img{
+    transform: scale(1.05);
+}
+.three .ding{
+    width: 100%;
+    line-height: 2;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    background-color: rgba(0,0,0,0.8);
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.three2{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.bottom{
+    width: 1100px;
+    min-height: 600px;
+    height: auto;
+    /*background: cadetblue;*/
+    margin: 40px auto;
+}
+.bottom .left{
+    width: 770px;
+    min-height: 600px;
+    height: auto;
+    background: #f6f6f6;
+    float:left;
+}
+.bottom .right{
+    width: 310px;
+    min-height: 600px;
+    height: auto;
+    /*background: white;*/
+    float:right;
+}
+ .title{
+   line-height: 40px;
+    height: 40px;
+    border-bottom: 2px #333333 solid;
+    /*background: white;*/
+     padding: 10px;
+     /*width: 100%;*/
+     /*box-sizing: border-box;*/
+     margin: 10px 0;
+     font-size: 20px;
+     font-weight: bold;
+     position: relative;
+     top: 0;
+     left: 0;
+
+}
+ .title .title111{
+     position: absolute;
+     top: 0;
+     right: 10px;
+
+ }
+ .title .title111 li{
+     float:left;
+     margin: 0 10px;
+     padding: 10px 0;
+
+
+ }
+ .title .title111 a{
+    font-weight: normal;
+     font-size: 14px;
+
+     color: #333333;
+
+     position: relative;
+     top: 0;
+     right: 0;
+ }
+.title .title111 a::before{
+    content:"" ;
+     width: 10px;
+    height: 1px;
+    background: #333333;
+}
+ .commend{
+     width: 770px;
+     height: auto;
+     border-radius: 10px;
+     background: white;
+ }
+
+.commend .commendall{
+    width: 750px;
+    height: 580px;
+    /*background: white;*/
+    padding: 20px 10px;
+
+}
+
+.text .tu{
+    width: 219px;
+    height: 259px;
+    border-left: 1px #ccc solid;
+    border-bottom: 1px #ccc solid;
+    padding: 15px;
+    margin: 0px;
+    float:left;
+    transition: all 500ms linear;
+}
+.text .tu:hover{
+    transform: scale(1.01);
+    box-shadow:  #ccc 1px 1px 8px;
+}
+.commend li:hover{
+    box-shadow:  #ccc 1px 1px 8px;
+    background: #fff;
+}
+.commend img{
+    transition: all .5s ease-out .1s;
+}
+.commend li:hover img{
+   transform: scale(1.05);
+}
+.text img{
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 5px;
+
+}
+.commend .texttitle{
+    /*width: 100%;*/
+    height: 30px;
+    line-height: 30px;
+    margin: 10px 0px;
+  font-size: 15px;
+    font-weight: bold;
+    display: block;
+    color: #555;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+.text p{
+    height: 62px;
+    display: -webkit-box;
+   -webkit-box-orient: vertical;
+  -webkit-line-clamp:3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #555;
+
+}
+.text a{
+
+    display: block;
+    font-size: 16px;
+    color: #096;
+    margin-top: 10px;
+    margin-left: 20px;
+    line-height: 30px;
+
+
+}
+.left .newtext{
+    width: 770px;
+    height: auto;
+
+
+    margin: 20px 0px;
+    background: white;
+    border-radius: 10px;
+}
+ .leftlast{
+
+    height: auto;
+    border-bottom: #ccc 1px solid;
+     /*margin: 0px 10px;*/
+     padding: 10px;
+}
+ .leftlast a{
+     height:30px;
+     width: 100%;
+    /* font-size: 16px;*/
+    /* line-height: 16px;
+     font-weight: bold;*/
+     color: #555555;
+
+
+ }
+ .leftlast h3{
+     margin: 10px 0;
+ }
+ .lastmid{
+     /*margin: 10px 0;*/
+     width: 100%;
+     height: 84px;
+
+     overflow: hidden;
+ }
+.lastmid img {
+    background: white;
+    /*height: 84px;*/
+    width: 30%;
+    float: left;
+   margin-right: 10px;
+    /*display: block;*/
+}
+.lastmid .lasttext{
+    float:right;
+    height: 62px;
+    height: auto;
+    width: 68%;
+    background: white;
+    display: block;
+    line-height: 1.5;
+
+    font: 14px "Microsoft YaHei", Arial, Helvetica, sans-serif;
+    color: #888;
+    padding-top: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+
+}
+.lastbot{
+    padding: 20px 0 0px;
+    height: 20px;
+    /*width: 100%;*/
+    background: white;
+    /*line-height: 50px;*/
+
+}
+.lastbot .lastbotleft{
+    float:left;
+}
+.lastbotleft .botleft1{
+    padding: 20px;
+    background-image: url("../博客模型/image/newsbg01.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.lastbotleft .date{
+    padding: 20px;
+    background-image: url("../博客模型/image/newsbg02.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.lastbotleft .liulan{
+    padding: 20px;
+    background-image: url("../博客模型/image/newsbg04.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.lastbotleft .like{
+    padding: 20px;
+    background-image: url("../博客模型/image/like.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.lastbot .lastbotright{
+    float:right;
+}
+.lastbot a{
+    font-size: 14px;
+    color: #009966;
+}
+.lastbot span{
+    font-size: 14px;
+    color: #838383;
+}
+.lastbot a:hover{
+    text-decoration: underline;
+}
+.last1{
+    height: 20px;
+}
+
+ .right1{
+     width: 100%;
+     height: auto;
+     background: white;
+     border-radius: 10px;
+ }
+
+.right1 .right1top{
+    height: 30px;
+    width: 100%;
+    padding: 30px 35px 20px;
+    float:left;
+
+}
+ .right .right1title{
+     text-align: center;
+     display: block;
+     border-bottom:none;
+     margin: 0 5px;
+     color: #555555;
+ }
+ .right1hr{
+     width: 25%;
+     height: 30px;
+     float:left;
+
+     border-bottom: 2px #555 solid;
+ }
+ .right1 .right1mid{
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     overflow: hidden;
+     margin:  auto;
+ }
+ .right1mid img{
+     width: 100%;
+     height: 100%;
+ }
+.right1 .right1bot{
+   padding: 20px 30px;
+
+    height: 140px;
+    /*width: 100%;*/
+    line-height: 30px;
+
+}
+.right1bot p{
+
+    font: 16px "Microsoft YaHei";
+    background: #f6f6f6;
+    margin: 10px;
+   color: #555555;
+    border-radius: 5px;
+    display: block;
+    padding-left: 10px;
+}
+.right .right2{
+    width: 250px;
+    /*height: 70px;*/
+    background: white;
+    margin: 20px 0 20px 0;
+    padding: 20px 20px 20px 40px  ;
+    border-radius: 10px;
+    display: block;
+}
+
+.right2 .right2mid1{
+    /*height: 30px;*/
+    width: 150px;
+    background: #f6f6f6;
+    border: 1px #000000 solid;
+    line-height: 30px;
+    padding:0 5px;
+    float:left;
+    display: block;
+}
+.right .right2mid2{
+  /*height: 30px;*/
+    width: 40px;
+    border: 1px #000000 solid;
+    line-height: 30px;
+    float:left;
+    border-left: none;
+    background: #333333;
+    color: white;
+    display: block;
+}
+.right .right3{
+    /*width: 100%;*/
+    height: auto;
+    margin:20px 0 20px 0;
+    background: white;
+    padding: 20px 20px 0 0;
+    border-radius: 10px;
+}
+.right3 .right3top{
+    width:300px ;
+    padding: 20px 20px 0 20px ;
+    height: 30px;
+
+}
+.right3 .right3top .right1hr{
+    width: 20%;
+    display: block;
+    margin-bottom: 20px;
+}
+.right3 .right3top .right1title{
+    width: 40%;
+}
+.right3 .right3mid{
+    padding: 20px 10px 0 10px;
+    margin: 0 0;
+}
+.right3mid .right3text{
+    margin: 10px 0;
+    width: 100%;
+    height: auto;
+    border-bottom: #555 1px solid;
+
+}
+
+.right3mid .right3title a{
+
+    height:30px;
+    width: 100%;
+    /* font-size: 16px;*/
+    /* line-height: 16px;
+     font-weight: bold;*/
+    color: #555555;
+}
+.right3text .right3bot{
+    height: auto;
+    background: white;
+    transition: all 500ms linear;
+}
+.right3bot:hover{
+    transform: scale(1.05);
+}
+.right3bot .right3img {
+    padding: 5px 10px;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    display: block;
+    float: left;
+    transition: all .5s ease;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.right3img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+.right3img:hover img{
+    transform: scale(1.03);
+}
+.right3wen{
+    /*float:left;*/
+    padding: 10px;
+  display: block;
+    font-family: "Microsoft YaHei UI";
+    margin: 10px;
+    color: #888;
+    line-height: 1.5;
+    font-size: 14px;
+}
+.right3last{
+    height: 1px;
+    background: white;
+}
+
+.right4{
+    height: 150px;
+    background: white;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.right4 .right3top{
+    padding-left: 40px;
+    height: 30px;
+    padding-top: 20px;
+}
+.right4 .right1hr{
+    width: 20%;
+    display: block;
+    margin-bottom: 20px;
+}
+.right4 .right1title{
+    width: 40%;
+}
+.right4mid{
+    width: 160px;
+    height: 40px;
+    border: #000000 1px solid;
+    margin: 30px auto;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 8px;
+    box-shadow: #333333 1px 1px 8px;
+
+}
+.right .right5{
+    height: 320px;
+    background: white;
+    margin-top: 20px;
+    border-radius: 10px;
+
+}
+.right5 .right1hr{
+    width: 20%;
+    display: block;
+    margin-bottom: 20px;
+}
+.right5 .right1title{
+    width: 40%;
+
+}
+.right5 .right3top {
+    padding-left: 40px;
+    height: 30px;
+    padding-top: 20px;
+}
+.right5 .ma{
+    width: 250px;
+    height: 250px;
+    padding-left: 30px;
+
+}
+.right5 img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
